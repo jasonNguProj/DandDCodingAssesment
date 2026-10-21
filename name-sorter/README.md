@@ -69,6 +69,11 @@ The report is available at `target/site/jacoco/index.html`.
 
 Tests cover sorting rules, name validation, file operations, and command-line execution.
 
+GitHub Actions runs `mvn clean verify` on Java 17 for every push and pull request.
+This compiles the application, runs unit and integration tests, packages the JAR,
+and generates the coverage report. View results in the repository's Actions tab;
+the workflow can also be started manually there.
+
 ## Design
 
 The application separates responsibilities across three classes:
