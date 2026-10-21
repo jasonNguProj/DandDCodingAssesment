@@ -1,0 +1,9 @@
+/target/
+/sorted-names-list.txt
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+.DS_Store
